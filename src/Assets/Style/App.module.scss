@@ -1,0 +1,15 @@
+@import "Assets/Style/_variables.scss";
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .mains {
+    flex: 1;
+  }
+
+  &.paddingForMobile {
+    padding-bottom: 50px;
+  }
+}
